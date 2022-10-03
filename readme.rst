@@ -1,71 +1,21 @@
 ###################
-What is CodeIgniter
+Coding activity
 ###################
+REQUIREMENTS:
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+1. Must use CodeIgniter web framework.
+2. Must design your activity using CSS
+3. All data displayed on your web page must come from a database table.
 
-*******************
-Release Information
-*******************
+ACTIVITY INSTRUCTIONS:
+Create a web application fragment that uses CodeIgniter (View, Model, Controller) with the following specifications:
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+- A database with one table, name your table and database as tblprofiles and dbstudents respectively. The table must contain at least 10 of your classmate's basic profile (first name, last name, birthday, gender, and address), you can put additional fields like ID as you see fit.
+- A web application using CodeIgniter framework with the following:
+	> Controller class which controls what views to be loaded and what function of the Model class will be called.
+	> Model class which retrieves data from the database.
+	> Views that 1) displays a welcome message and a link that opens another page when clicked, and 2) shows all the data stored in your database table (tblprofiles).
+WHAT TO SUBMIT:
 
-**************************
-Changelog and New Features
-**************************
+Export your SQL file, compress your web application folder together with your SQL file then upload it to the Submission link on this activity.
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
-
-*******************
-Server Requirements
-*******************
-
-PHP version 5.6 or newer is recommended.
-
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
-
-************
-Installation
-************
-
-Please see the `installation section <https://codeigniter.com/userguide3/installation/index.html>`_
-of the CodeIgniter User Guide.
-
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Contributing Guide <https://github.com/bcit-ci/CodeIgniter/blob/develop/contributing.md>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
