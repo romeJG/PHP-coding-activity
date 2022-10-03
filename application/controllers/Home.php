@@ -18,7 +18,6 @@ class Home extends CI_Controller
 
     public function view_classmates()
     {
-
         $data['title'] = 'my 10 Classmates';
         $this->load->model('classmates_model');
         $data['classmates'] = $this->classmates_model->get_classmates_no_limit();

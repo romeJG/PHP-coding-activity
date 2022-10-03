@@ -16,3 +16,4 @@ class Classmates_model extends CI_Model
         return $result;
     }
 }
+//lol?
